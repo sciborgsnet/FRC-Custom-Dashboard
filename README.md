@@ -26,8 +26,8 @@ In the install directory, run
 ## Todo
 ### ~~Top Bar (Timer, Connection)~~
 ### Gyro
-### Camera Feed
+### ~~Camera Feed~~
 ### Motor Speeds
 ### Power/Misc
-### Autonomous Selector
+### ~~Autonomous Selector~~
 ### Minimap

@@ -128,7 +128,7 @@
   height: 80px;
   width: 120px;
   margin: 5;
-  background-color: #303F46 !important;
+  background-color: #0d2f1f !important;
 }
 
 .touchButton.left{
@@ -144,11 +144,12 @@
 }
 
 .touchButton.autoSelector{
-  width: 120px;
+  width: 90%;
+  height: 28%;
 }
 
 .buttonSelected{
-  background-color: #8D48AB !important;
+  background-color: #13452d !important;
 }
 
 .buttonText{

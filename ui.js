@@ -14,6 +14,10 @@ app.factory('updateService', function(){
 			time: 0,
 			phase: 'not started'
 		},
+    autoMode:{
+			selectedMode: 'ball',
+			availibleModes: {}
+		},
 		connected: false
 	};
 
@@ -81,4 +85,15 @@ app.controller('clockCtrl', function($scope, updateService){
     else
       return 'Disconnected';
   };
+});
+
+app.controller('autoCtrl', function($scope, updateService){
+	$scope.info = {
+		selected: 'ball'
+	};
+
+	$scope.select = function(name){
+		$scope.info.selected = name;
+    NetworkTables.putValue(selectedMode, name);
+	};
 });
