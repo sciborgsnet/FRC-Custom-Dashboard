@@ -23,9 +23,16 @@
 </head>
 
 <div ng-controller="uiCtrl" class="background" layout="column" layout-fill flex="grow"> <!-- -->
-  <div class="box" ng-controller="clockCtrl" layout="row" layout-align="space-between center" flex="10"> <!--clock and match info -->
-    <div class="clockText" flex>Robot Status: <span class="robot-state">Disconnected</span></div>
-    <div class="clockText"flex>Match Time: <span class="timer">2:15</span></div>
+  <div class="box" ng-controller="clockCtrl" layout="row" layout-align="space-between center" flex="10">
+    <div class="clockText" flex>Robot Status: <span class="value">{{getStatus()}}</span></div>
+    <div class="clockText"flex>Match Time: <span class="value">{{getTime()}}</span></div>
+  </div>
+  <div layout="row" flex="grow"> <!--container for the rest of the UI -->
+    <div layout="column" flex="45"> <!--camera feed -->
+      <div layout="column" class="box" flex="100"> <!--camera feed -->
+        <p class="title">Camera Feed</p>
+      </div>
+    </div>
   </div>
 </div>
 <script>
