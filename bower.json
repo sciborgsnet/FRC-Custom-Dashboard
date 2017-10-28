@@ -1,0 +1,24 @@
+{
+  "name": "FRC-Custom-Dashboard",
+  "description": "Dashboard for extra robot controls in FRC. Experimental Electron environment.",
+  "main": "main.js",
+  "authors": [
+    "Karun Ellango"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/BxSciborgs/FRC-Custom-Dashboard",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "^1.4.8",
+    "angular-material": "^1.1.3",
+    "angular-nvd3": "1.0.8",
+    "angular-touch": "^1.6.4"
+  }
+}
