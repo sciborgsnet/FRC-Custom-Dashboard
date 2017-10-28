@@ -1,4 +1,4 @@
-# FRC-Custom-Dashboard <img src="https://i.imgur.com/qSkfw1H.png" alt="Drawing" style="width: 85px;"/>
+# FRC-Custom-Dashboard
 1155 Customized Dashboard
 
 ## How to Install
