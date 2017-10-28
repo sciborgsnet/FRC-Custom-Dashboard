@@ -24,7 +24,7 @@ In the install directory, run
 
 
 ## Todo
-### Top Bar (Timer, Connection)
+### ~~Top Bar (Timer, Connection)~~
 ### Gyro
 ### Camera Feed
 ### Motor Speeds

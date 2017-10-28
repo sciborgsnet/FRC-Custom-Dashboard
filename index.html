@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="Dashboard">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>FRC Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.4/nv.d3.css">
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+  <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+  <script src="bower_components/angular-material/angular-material.min.js"></script>
+  <script src="bower_components/angular-messages/angular-messages.min.js"></script>
+  <script src="bower_components/angular-touch/angular-touch.min.js"></script>
+  <script src="bower_components/d3/d3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.4/nv.d3.js"></script>
+  <script src="bower_components/angular-nvd3/dist/angular-nvd3.js"></script>
+  <script src="/networktables/networktables.js"></script>
+  <script src="ui.js"></script>
+</head>
+
+<div ng-controller="uiCtrl" class="background" layout="column" layout-fill flex="grow"> <!-- -->
+  <div class="box" ng-controller="clockCtrl" layout="row" layout-align="space-between center" flex="10"> <!--clock and match info -->
+    <div class="clockText" flex>Robot Status: <span class="robot-state">Disconnected</span></div>
+    <div class="clockText"flex>Match Time: <span class="timer">2:15</span></div>
+  </div>
+</div>
+<script>
+  document.addEventListener("keydown", function (e) {
+    if (e.which === 123) {
+      require('remote').getCurrentWindow().toggleDevTools();
+    } else if (e.which === 116) {
+      location.reload();
+    }
+  });
+</script>
+</body>
+
+</html>
