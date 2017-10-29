@@ -1,0 +1,60 @@
+<svg width="204" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="206" height="227" id="canvas_background" fill="none"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <rect x="1.02044" y="1.428602" stroke="#ffffff" id="noPurple1" width="200" height="220" stroke-width=" 2px" fill-opacity="0" fill="#000000"/>
+  <g id="e390_group">
+   <rect x="6.02044" y="161.428602" stroke="#CCCC00" id="e41_rectangle" width="30" height="50" stroke-width=" 2px" fill="none"/>
+   <line id="e231_line" x1="6.02044" y1="181.428602" x2="36.02044" y2="161.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e271_line" x1="6.02044" y1="191.428602" x2="36.02044" y2="171.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e285_line" x1="6.02044" y1="201.428602" x2="36.02044" y2="181.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e299_line" x1="6.02044" y1="211.428602" x2="36.02044" y2="191.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e352_line" x1="6.02044" y1="171.428602" x2="21.02044" y2="161.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e366_line" x1="36.02044" y1="201.428602" x2="21.02044" y2="211.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+  </g>
+  <line id="noPurple2" x1="41.02044" y1="1.428602" x2="41.02044" y2="221.428602" stroke="white" stroke-width=" 2px"/>
+  <g id="e415_group">
+   <rect x="6.02044" y="11.428602" stroke="#CCCC00" id="e415_rectangle" width="30" height="50" stroke-width=" 2px" fill="none"/>
+   <line id="e415_line" x1="6.02044" y1="11.428602" x2="36.02044" y2="31.428602" stroke="#CCCC00" stroke-width=" 2px" fill="none"/>
+   <line id="e416_line" x1="6.02044" y1="21.428602" x2="36.02044" y2="41.428602" stroke="#CCCC00" stroke-width=" 2px" fill="none"/>
+   <line id="e417_line" x1="6.02044" y1="31.428602" x2="36.02044" y2="51.428602" stroke="#CCCC00" stroke-width=" 2px" fill="none"/>
+   <line id="e418_line" x1="6.02044" y1="41.428602" x2="36.02044" y2="61.428602" stroke="#CCCC00" stroke-width=" 2px" fill="none"/>
+   <line id="e419_line" x1="36.02044" y1="21.428602" x2="21.02044" y2="11.428602" stroke="#CCCC00" stroke-width=" 2px" fill="none"/>
+   <line id="e420_line" x1="6.02044" y1="51.428602" x2="21.02044" y2="61.428602" stroke="#CCCC00" stroke-width=" 2px" fill="none"/>
+  </g>
+  <g id="e610_group">
+   <rect x="166.02044" y="161.428602" stroke="#CCCC00" id="e610_rectangle" width="30" height="50" stroke-width=" 2px" fill-opacity="0" fill="#000000"/>
+   <line id="e610_line" x1="166.02044" y1="161.428602" x2="196.02044" y2="181.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e611_line" x1="166.02044" y1="171.428602" x2="196.02044" y2="191.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e612_line" x1="166.02044" y1="181.428602" x2="196.02044" y2="201.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e613_line" x1="166.02044" y1="191.428602" x2="196.02044" y2="211.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e614_line" x1="196.02044" y1="171.428602" x2="181.02044" y2="161.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e615_line" x1="166.02044" y1="201.428602" x2="181.02044" y2="211.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+  </g>
+  <g id="e615_group" stroke="#CCCC00">
+   <rect x="166.02044" y="11.428602" stroke="#CCCC00" id="e615_rectangle" width="30" height="50" stroke-width=" 2px" fill-opacity="0" fill="#000000"/>
+   <line id="e616_line" x1="166.02044" y1="31.428602" x2="196.02044" y2="11.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e617_line" x1="166.02044" y1="41.428602" x2="196.02044" y2="21.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e618_line" x1="166.02044" y1="51.428602" x2="196.02044" y2="31.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e619_line" x1="166.02044" y1="61.428602" x2="196.02044" y2="41.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e620_line" x1="166.02044" y1="21.428602" x2="181.02044" y2="11.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+   <line id="e621_line" x1="196.02044" y1="51.428602" x2="181.02044" y2="61.428602" stroke="#CCCC00" stroke-width=" 2px"/>
+  </g>
+  <line id="noPurple3" x1="161.02044" y1="1.428602" x2="161.02044" y2="221.428602" stroke="white" stroke-width=" 2px"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="110" x2="100.5" y1="0" x1="100.5" stroke-width="2" stroke="#0d2f1f" fill="none"/>
+  <line id="noPurple4" x1="41.02044" y1="41.428602" x2="161.02044" y2="41.428602" stroke="white" stroke-width=" 2px"/>
+  <line id="noPurple5" x1="51.02044" y1="41.428602" x2="51.02044" y2="11.428602" stroke="white" stroke-width=" 2px"/>
+  <line id="noPurple6" x1="51.02044" y1="11.428602" x2="81.02044" y2="11.428602" stroke="white" stroke-width=" 2px"/>
+  <line id="noPurple7" x1="151.02044" y1="41.428602" x2="151.02044" y2="11.428602" stroke="white" stroke-width=" 2px"/>
+  <line id="noPurple8" x1="151.02044" y1="11.428602" x2="121.02044" y2="11.428602" stroke="white" stroke-width=" 2px"/>
+  <rect x="71.02044" y="181.428602" stroke="#CCCC00" id="e2265_rectangle" width="60" height="30" stroke-width=" 2px" fill-opacity="0" fill="#000000"/>
+  <rect x="61.02044" y="161.428602" stroke="white" id="noPurple9" width="5" height="50" stroke-width=" 2px" fill-opacity="0" fill="#000000"/>
+  <rect x="136.02044" y="161.428602" stroke="white" id="noPurple10" width="5" height="50" stroke-width=" 2px" fill-opacity="0" fill="#000000"/>
+  <line id="noPurple12" x1="66.02044" y1="196.428602" x2="71.02044" y2="196.428602" stroke="white" stroke-width=" 2px"/>
+  <line id="noPurple11" x1="131.02044" y1="196.428602" x2="136.02044" y2="196.428602" stroke="white" stroke-width=" 2px"/>
+ </g>
+</svg>

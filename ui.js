@@ -11,7 +11,7 @@ app.factory('updateService', function(){
 
 	updateService.data = {
 		match: {
-			time: 0,
+			time: 60,
 			phase: 'not started'
 		},
 		motors: {
@@ -20,6 +20,9 @@ app.factory('updateService', function(){
 			motorBackRight: -1,
 			motorFrontRight: -1,
 			climberMotor: 0
+		},
+		sensors: {
+			gyroAngle: 90,
 		},
     autoMode:{
 			selectedMode: 'ball',
@@ -101,6 +104,6 @@ app.controller('autoCtrl', function($scope, updateService){
 
 	$scope.select = function(name){
 		$scope.info.selected = name;
-    NetworkTables.putValue(selectedMode, name);
+    updateService.sendValue("selectedMode", name);
 	};
 });

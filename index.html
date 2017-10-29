@@ -71,18 +71,81 @@
             </div>
          </div>
          <div layout="column" flex="20"> <!-- Contains Gyro and Motor -->
-           <div layout="column" class="box" flex="40"> <!-- Gyro -->
-           </div>
+           <div layout="column" class="box" flex="40" layout-align="start center"> <!-- Gyro -->
+           <p class="title">Angle</p>
+            <svg width="210" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 204 225">
+            <g>
+             <title>background</title>
+             <rect fill="none" id="canvas_background" height="250" width="210" y="-1" x="-1"/>
+             <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="110" x2="100.5" y1="0" x1="100.5" stroke-width="2" stroke="#fff" fill="none"/>
+            </g>
+            <g style="transform-origin: 102px 113px; transform: scale(.6) rotate({{data.sensors.gyroAngle}}deg);">
+             <title>Layer 1</title>
+             <rect fill-opacity="0" stroke-width=" 2px" height="220" width="200" id="noPurple1" stroke="#ffffff" y="1.428602" x="1.02044"/>
+             <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="118" x2="100.5" y1="-50" x1="100.5" stroke-width="4" stroke="#CCCC00" fill="none"/>
+             <g id="e390_group">
+              <rect fill="none" stroke-width=" 2px" height="50" width="30" id="e41_rectangle" stroke="#CCCC00" y="161.428602" x="6.02044"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="161.428602" x2="36.02044" y1="181.428602" x1="6.02044" id="e231_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="171.428602" x2="36.02044" y1="191.428602" x1="6.02044" id="e271_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="181.428602" x2="36.02044" y1="201.428602" x1="6.02044" id="e285_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="191.428602" x2="36.02044" y1="211.428602" x1="6.02044" id="e299_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="161.428602" x2="21.02044" y1="171.428602" x1="6.02044" id="e352_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="211.428602" x2="21.02044" y1="201.428602" x1="36.02044" id="e366_line"/>
+             </g>
+             <line stroke-width=" 2px" stroke="white" y2="221.428602" x2="41.02044" y1="1.428602" x1="41.02044" id="noPurple2"/>
+             <g id="e415_group">
+              <rect fill="none" stroke-width=" 2px" height="50" width="30" id="e415_rectangle" stroke="#CCCC00" y="11.428602" x="6.02044"/>
+              <line fill="none" stroke-width=" 2px" stroke="#CCCC00" y2="31.428602" x2="36.02044" y1="11.428602" x1="6.02044" id="e415_line"/>
+              <line fill="none" stroke-width=" 2px" stroke="#CCCC00" y2="41.428602" x2="36.02044" y1="21.428602" x1="6.02044" id="e416_line"/>
+              <line fill="none" stroke-width=" 2px" stroke="#CCCC00" y2="51.428602" x2="36.02044" y1="31.428602" x1="6.02044" id="e417_line"/>
+              <line fill="none" stroke-width=" 2px" stroke="#CCCC00" y2="61.428602" x2="36.02044" y1="41.428602" x1="6.02044" id="e418_line"/>
+              <line fill="none" stroke-width=" 2px" stroke="#CCCC00" y2="11.428602" x2="21.02044" y1="21.428602" x1="36.02044" id="e419_line"/>
+              <line fill="none" stroke-width=" 2px" stroke="#CCCC00" y2="61.428602" x2="21.02044" y1="51.428602" x1="6.02044" id="e420_line"/>
+             </g>
+             <g id="e610_group">
+              <rect fill="#000000" fill-opacity="0" stroke-width=" 2px" height="50" width="30" id="e610_rectangle" stroke="#CCCC00" y="161.428602" x="166.02044"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="181.428602" x2="196.02044" y1="161.428602" x1="166.02044" id="e610_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="191.428602" x2="196.02044" y1="171.428602" x1="166.02044" id="e611_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="201.428602" x2="196.02044" y1="181.428602" x1="166.02044" id="e612_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="211.428602" x2="196.02044" y1="191.428602" x1="166.02044" id="e613_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="161.428602" x2="181.02044" y1="171.428602" x1="196.02044" id="e614_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="211.428602" x2="181.02044" y1="201.428602" x1="166.02044" id="e615_line"/>
+             </g>
+             <g stroke="#CCCC00" id="e615_group">
+              <rect fill="#000000" fill-opacity="0" stroke-width=" 2px" height="50" width="30" id="e615_rectangle" stroke="#CCCC00" y="11.428602" x="166.02044"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="11.428602" x2="196.02044" y1="31.428602" x1="166.02044" id="e616_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="21.428602" x2="196.02044" y1="41.428602" x1="166.02044" id="e617_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="31.428602" x2="196.02044" y1="51.428602" x1="166.02044" id="e618_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="41.428602" x2="196.02044" y1="61.428602" x1="166.02044" id="e619_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="11.428602" x2="181.02044" y1="21.428602" x1="166.02044" id="e620_line"/>
+              <line stroke-width=" 2px" stroke="#CCCC00" y2="61.428602" x2="181.02044" y1="51.428602" x1="196.02044" id="e621_line"/>
+             </g>
+             <line stroke-width=" 2px" stroke="white" y2="221.428602" x2="161.02044" y1="1.428602" x1="161.02044" id="noPurple3"/>
+             <line stroke-width=" 2px" stroke="white" y2="41.428602" x2="161.02044" y1="41.428602" x1="41.02044" id="noPurple4"/>
+             <line stroke-width=" 2px" stroke="white" y2="11.428602" x2="51.02044" y1="41.428602" x1="51.02044" id="noPurple5"/>
+             <line stroke-width=" 2px" stroke="white" y2="11.428602" x2="81.02044" y1="11.428602" x1="51.02044" id="noPurple6"/>
+             <line stroke-width=" 2px" stroke="white" y2="11.428602" x2="151.02044" y1="41.428602" x1="151.02044" id="noPurple7"/>
+             <line stroke-width=" 2px" stroke="white" y2="11.428602" x2="121.02044" y1="11.428602" x1="151.02044" id="noPurple8"/>
+             <rect fill="#000000" fill-opacity="0" stroke-width=" 2px" height="30" width="60" id="e2265_rectangle" stroke="#CCCC00" y="181.428602" x="71.02044"/>
+             <rect fill="#000000" fill-opacity="0" stroke-width=" 2px" height="50" width="5" id="noPurple9" stroke="white" y="161.428602" x="61.02044"/>
+             <rect fill="#000000" fill-opacity="0" stroke-width=" 2px" height="50" width="5" id="noPurple10" stroke="white" y="161.428602" x="136.02044"/>
+             <line stroke-width=" 2px" stroke="white" y2="196.428602" x2="71.02044" y1="196.428602" x1="66.02044" id="noPurple12"/>
+             <line stroke-width=" 2px" stroke="white" y2="196.428602" x2="136.02044" y1="196.428602" x1="131.02044" id="noPurple11"/>
+              </g>
+              </svg>
+              <p class="title">Angle: {{data.sensors.gyroAngle}}</p>
+        </div>
+
             <div layout="column" class="box" flex="60" layout-align="start center"> <!-- Motors -->
              <p class="title">Motors</p>
-             <svg width="204" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 204 225">
+             <svg width="210" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 204 225">
               <g>
                <title>background</title>
-               <rect fill="none" id="canvas_background" height="227" width="206" y="-1" x="-1"/>
+               <rect fill="none" id="canvas_background" height="250" width="210" y="-1" x="-1"/>
               </g>
               <g>
                <title>Layer 1</title>
-               <rect fill="#000000" fill-opacity="0" stroke-width=" 2px" height="220" width="200" id="noPurple1" stroke="#ffffff" y="1.428602" x="1.02044"/>
+               <rect fill-opacity="0" stroke-width=" 2px" height="220" width="200" id="noPurple1" stroke="#ffffff" y="1.428602" x="1.02044"/>
                <g id="e390_group">
                 <rect fill="none" stroke-width=" 2px" height="50" width="30" id="e41_rectangle" stroke="#CCCC00" y="161.428602" x="6.02044"/>
                 <line stroke-width=" 2px" stroke="#CCCC00" y2="161.428602" x2="36.02044" y1="181.428602" x1="6.02044" id="e231_line"/>
@@ -131,7 +194,7 @@
                <rect fill="#000000" fill-opacity="0" stroke-width=" 2px" height="50" width="5" id="noPurple10" stroke="white" y="161.428602" x="136.02044"/>
                <line stroke-width=" 2px" stroke="white" y2="196.428602" x2="71.02044" y1="196.428602" x1="66.02044" id="noPurple12"/>
                <line stroke-width=" 2px" stroke="white" y2="196.428602" x2="136.02044" y1="196.428602" x1="131.02044" id="noPurple11"/>
-              </g>
+             </g1>
              </svg>
              <br>
              <div id="motorCharts" layout="column" layout-align="none left">
@@ -166,6 +229,8 @@
           require('remote').getCurrentWindow().toggleDevTools();
         } else if (e.which === 116) {
           location.reload();
+        } else if (e.which === 81) {
+          $scope.$apply();
         }
       });
    </script>
