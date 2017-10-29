@@ -71,18 +71,18 @@
             </div>
          </div>
          <div layout="column" flex="20"> <!-- Contains Gyro and Motor -->
-           <div layout="column" class="box" flex="40" layout-align="start center"> <!-- Gyro -->
+          <div layout="column" class="box" flex="35" layout-align="start center"> <!-- Gyro -->
            <p class="title">Angle</p>
             <svg width="210" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 204 225">
-            <g>
+              <g>
              <title>background</title>
              <rect fill="none" id="canvas_background" height="250" width="210" y="-1" x="-1"/>
-             <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="110" x2="100.5" y1="0" x1="100.5" stroke-width="2" stroke="#fff" fill="none"/>
-            </g>
-            <g style="transform-origin: 102px 113px; transform: scale(.6) rotate({{data.sensors.gyroAngle}}deg);">
+             <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="113" x2="100.5" y1="0" x1="100.5" stroke-width="2" stroke="#fff" fill="none"/>
+              </g>
+              <g style="transform-origin: 102px 113px; transform: scale(.5) rotate({{data.sensors.gyroAngle}}deg);">
              <title>Layer 1</title>
              <rect fill-opacity="0" stroke-width=" 2px" height="220" width="200" id="noPurple1" stroke="#ffffff" y="1.428602" x="1.02044"/>
-             <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="118" x2="100.5" y1="-50" x1="100.5" stroke-width="4" stroke="#CCCC00" fill="none"/>
+             <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="113" x2="100.5" y1="-40" x1="100.5" stroke-width="4" stroke="#CCCC00" fill="none"/>
              <g id="e390_group">
               <rect fill="none" stroke-width=" 2px" height="50" width="30" id="e41_rectangle" stroke="#CCCC00" y="161.428602" x="6.02044"/>
               <line stroke-width=" 2px" stroke="#CCCC00" y2="161.428602" x2="36.02044" y1="181.428602" x1="6.02044" id="e231_line"/>
@@ -134,9 +134,8 @@
               </g>
               </svg>
               <p class="title">Angle: {{data.sensors.gyroAngle}}</p>
-        </div>
-
-            <div layout="column" class="box" flex="60" layout-align="start center"> <!-- Motors -->
+            </div>
+          <div layout="column" class="box" flex="65" layout-align="start center"> <!-- Motors -->
              <p class="title">Motors</p>
              <svg width="210" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 204 225">
               <g>

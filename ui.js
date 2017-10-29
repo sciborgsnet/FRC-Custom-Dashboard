@@ -22,7 +22,7 @@ app.factory('updateService', function(){
 			climberMotor: 0
 		},
 		sensors: {
-			gyroAngle: 90,
+			gyroAngle: 298,
 		},
     autoMode:{
 			selectedMode: 'ball',
