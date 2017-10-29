@@ -24,6 +24,16 @@ app.factory('updateService', function(){
 		sensors: {
 			gyroAngle: 298,
 		},
+		power: {
+					batteryVoltage: 10.8,
+					totalPowerUse: 28.6,
+					powerFrontLeft: 12.4,
+					powerBackLeft: 7,
+					powerBackRight: 9,
+					powerFrontRight: 10,
+					powerClimber: 0,
+					powerRio: 0.8,
+		},
     autoMode:{
 			selectedMode: 'ball',
 			availibleModes: {}

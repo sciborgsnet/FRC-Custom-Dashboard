@@ -72,7 +72,7 @@
          </div>
          <div layout="column" flex="20"> <!-- Contains Gyro and Motor -->
             <div layout="column" class="box" flex="35" layout-align="start center"> <!-- Gyro -->
-               <p class="title">Angle</p>
+               <p class="title">Gyro</p>
                <svg width="210" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 204 225">
                   <g>
                      <title>background</title>
@@ -220,10 +220,11 @@
                </div>
             </div>
          </div>
-         <div layout="column" flex="40"> <!-- Zi's smorgasbord -->
-            <div class="box" flex="grow" layout="column" layout-align="space-around center">
+         <div layout="column" flex="40"> <!-- Zi's smorgasbord and Powerwall -->
+            <div class="box" flex="10" layout="column" layout-align="space-around center">
                <p class="title">Zi's Smörgåsbord</p>
             </div>
+              <div layout="column" flex="60">
             <div class="box" flex="grow" layout="row" layout-align="space-around center">
                <div class="b-box2" layout-align="center center" flex="12.5">
                   <p>Random Value 1</p>
@@ -394,77 +395,35 @@
                   <p class="value">-34.6</p>
                </div>
             </div>
-            <div class="box" flex="grow" layout="row" layout-align="space-around center">
-               <div class="b-box1" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">43cm</p>
-               </div>
-               <div class="b-box2" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">-34.6</p>
-               </div>
-               <div class="b-box1" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">43cm</p>
-               </div>
-               <div class="b-box2" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">-34.6</p>
-               </div>
-               <div class="b-box1" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">43cm</p>
-               </div>
-               <div class="b-box2" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">-34.6</p>
-               </div>
-               <div class="b-box1" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">43cm</p>
-               </div>
-               <div class="b-box2" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">-34.6</p>
-               </div>
             </div>
-            <div class="box" flex="grow" layout="row" layout-align="space-around center">
-               <div class="b-box2" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">43cm</p>
-               </div>
-               <div class="b-box1" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">-34.6</p>
-               </div>
-               <div class="b-box2" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">43cm</p>
-               </div>
-               <div class="b-box1" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">-34.6</p>
-               </div>
-               <div class="b-box2" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">43cm</p>
-               </div>
-               <div class="b-box1" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">-34.6</p>
-               </div>
-               <div class="b-box2" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">43cm</p>
-               </div>
-               <div class="b-box1" layout-align="center center" flex="12.5">
-                  <p>Random Value 1</p>
-                  <p class="value">-34.6</p>
-               </div>
+            <div class="box" flex="30" layout="column" layout-align="space-around center">
+              <div class="box" flex="20" layout="column" layout-align="space-around center"> <!-- Quinn's Powerwall -->
+                <p class="title">Quinn's Powerwall</p>
+              </div>
+              <div layout="row" flex="grow ">
+              <div layout="column" flex="grow ">
+                <div class="powerChart" layout="row" layout-align="center center"><p class="powerLabel">Front left wheel</p><bar-chart value="data.power.powerFrontLeft" min="0" max="20" width="200" height="20" unit="A"></bar-chart></div>
+                <br>
+                <div class="powerChart" layout="row" layout-align="center center"><p class="powerLabel">Front right wheel</p><bar-chart value="data.power.powerFrontRight" min="0" max="20" width="200" height="20" unit="A"></bar-chart></div>
+                <br>
+                <div class="powerChart" layout="row" layout-align="center center"><p class="powerLabel">Back left wheel</p><bar-chart value="data.power.powerBackLeft" min="0" max="20" width="200" height="20" unit="A"></bar-chart></div>
+                <br>
+                <div class="powerChart" layout="row" layout-align="center center"><p class="powerLabel">Back right wheel</p><bar-chart value="data.power.powerBackRight" min="0" max="20" width="200" height="20" unit="A"></bar-chart></div>
+              </div>
+              <div layout="column" flex="grow ">
+                <div class="powerChart" layout="row" layout-align="center center"><p class="powerLabel">Climber motor</p><bar-chart value="data.power.powerClimber" min="0" max="20" width="200" height="20" unit="A"></bar-chart></div>
+                <br>
+                <div class="powerChart" layout="row" layout-align="center center"><p class="powerLabel">RoboRIO</p><bar-chart value="data.power.powerRio" min="0" max="20" width="200" height="20" unit="A"></bar-chart></div>
+                <br>
+                <div class="powerChart" layout="row" layout-align="center center"><p class="powerLabel">Battery Voltage</p><bar-chart value="data.power.batteryVoltage" min="0" max="12" width="200" height="20" unit="V"></bar-chart></div>
+                <br>
+                <div class="powerChart" layout="row" layout-align="center center"><p class="powerLabel">Total Power Use</p><bar-chart value="data.power.totalPowerUse" min="0" max="40" width="200" height="20" unit="A"></bar-chart></div>
+              </div>
             </div>
          </div>
       </div>
    </div>
+</div>
    <script>
       document.addEventListener("keydown", function (e) {
         if (e.which === 123) {
