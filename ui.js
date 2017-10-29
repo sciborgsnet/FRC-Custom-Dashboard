@@ -14,6 +14,13 @@ app.factory('updateService', function(){
 			time: 0,
 			phase: 'not started'
 		},
+		motors: {
+			motorFrontLeft: 1,
+			motorBackLeft: 1,
+			motorBackRight: -1,
+			motorFrontRight: -1,
+			climberMotor: 0
+		},
     autoMode:{
 			selectedMode: 'ball',
 			availibleModes: {}

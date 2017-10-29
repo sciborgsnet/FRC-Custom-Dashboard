@@ -19,6 +19,7 @@
       <script src="bower_components/angular-nvd3/dist/angular-nvd3.js"></script>
       <script src="/networktables/networktables.js"></script>
       <script src="ui.js"></script>
+      <script src="directives/barChart.js"></script>
    </head>
    <div ng-controller="uiCtrl" class="background" layout="column" layout-fill flex="grow">
       <div class="box" ng-controller="clockCtrl" layout="row" layout-align="space-between center" flex="10"> <!-- Status and Time -->
@@ -132,7 +133,29 @@
                <line stroke-width=" 2px" stroke="white" y2="196.428602" x2="136.02044" y1="196.428602" x1="131.02044" id="noPurple11"/>
               </g>
              </svg>
+             <br>
+             <div id="motorCharts" layout="column" layout-align="none left">
+               <div class="motorContainer" layout="column">
+                 <p class="motorLabel">Front left wheel:</p>
+                 <bar-chart value="data.motors.motorFrontLeft" min="-1" max="1" width="200" height="20"></bar-chart>
                </div>
+               <div class="motorContainer" layout="column">
+                 <p class="motorLabel">Front right wheel:</p>
+                 <bar-chart value="data.motors.motorFrontRight" min="-1" max="1" width="200" height="20"></bar-chart>
+               </div>
+               <div class="motorContainer" layout="column">
+                 <p class="motorLabel">Back left wheel:</p>
+                 <bar-chart value="data.motors.motorBackLeft" min="-1" max="1" width="200" height="20"></bar-chart>
+               </div>
+               <div class="motorContainer" layout="column">
+                 <p class="motorLabel">Back right wheel:</p>
+                 <bar-chart value="data.motors.motorBackRight" min="-1" max="1" width="200" height="20"></bar-chart>
+               </div>
+               <div class="motorContainer" layout="column">
+                 <p class="motorLabel">Climber motor:</p>
+                 <bar-chart value="data.motors.climberMotor" min="-1" max="1" width="200" height="20"></bar-chart>
+                 </div>
+             </div>
             </div>
          </div>
       </div>
