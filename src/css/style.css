@@ -11,6 +11,11 @@ body {
     overflow: hidden;
     background: #222;
 }
+.robotValues {
+	color: #FAEC29;
+	font-size: xx-large;
+	padding-bottom: 10px;
+}
 button, input[type="text"], input[type="number"], .select-container, select {
     color: white;
     background: #444;
@@ -42,8 +47,10 @@ body > * {
     padding: 10px;
     background: #222;
 }
+.widthHundred{
+    width: 100%;
+}
 #camera {
-    width: 180px;
     height: 400px;
     overflow: hidden;
     background-color: #3f3f3f;
@@ -51,7 +58,6 @@ body > * {
     /*background-image: url('LINK TO CAMERA SOURCE HERE');*/
 }
 #camera1 {
-    width: 180px;
     height: 400px;
     overflow: hidden;
     background-color: #3a3a3a;
@@ -59,7 +65,6 @@ body > * {
     /*background-image: url('LINK TO CAMERA SOURCE HERE');*/
 }
 #camera2 {
-    width: 180px;
     height: 400px;
     overflow: hidden;
     background-color: #2f2f2f;
