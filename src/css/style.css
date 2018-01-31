@@ -16,6 +16,24 @@ body {
 	font-size: xx-large;
 	padding-bottom: 10px;
 }
+.valueBackground {
+  background-color: #3f3f3f;
+  height: 150px;
+  width: 150px;
+  line-height: 150px;
+  color: #FAEC29;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+.valueBackground2 {
+  background-color: #303030;
+  height: 150px;
+  width: 150px;
+  line-height: 150px;
+  color: #FAEC29;
+  text-align: center;
+}
 button, input[type="text"], input[type="number"], .select-container, select {
     color: white;
     background: #444;
