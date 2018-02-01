@@ -197,7 +197,7 @@ var NetworkTables =
              * @returns Escaped value
              */
             keySelector(key) {
-                return encodeURIComponent(key).replace(/([;&,\.\+\*\~':"\!\^#$%@\[\]\(\)=>\|])/g, '\\$1');
+return encodeURIComponent(key).replace(/([;&,\.\+\*\~':"\!\^#$%@\[\]\(\)=>\|])/g, '\\$1');
             }
         }
-    })();
+})();
